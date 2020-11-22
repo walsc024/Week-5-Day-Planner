@@ -10,7 +10,12 @@ $(".time-block").each(function(){
 
     if (time < presentHour){
         $(this).addClass("past")
+    } else if (time === presentHour){
+        $(this).addClass("present")
+    } else if (time > presentHour){
+        $(this).addClass("future")
     }
+
 })
 
 
