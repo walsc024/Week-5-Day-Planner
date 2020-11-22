@@ -3,8 +3,15 @@ $(document).ready(function(){
 var currentDay = moment().format("MMMM dddd Do");
 console.log(currentDay)
 $("#currentDay").text(currentDay)
-var presentHour = moment().hours()
-console.log(presentHour)
+
+$(".time-block").each(function(){
+    var presentHour = moment().hours()
+    var time = parseInt($(this).attr("id"))
+
+    if (time < presentHour){
+        $(this).addClass("past")
+    }
+})
 
 
 
@@ -20,4 +27,8 @@ var nineTask = localStorage.getItem("9")
 $("#9 .description").val(nineTask)
 var tenTask = localStorage.getItem("10")
 $("#10 .description").val(tenTask)
+
+
+
+
 })
