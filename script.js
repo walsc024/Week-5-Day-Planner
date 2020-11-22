@@ -43,24 +43,24 @@ var twelveTask = localStorage.getItem("12")
 $("#12 .description").val(twelveTask)
 
 //stored tasks for 1pm-2pm
-var oneTask = localStorage.getItem("1")
-$("#1 .description").val(oneTask)
+var oneTask = localStorage.getItem("13")
+$("#13 .description").val(oneTask)
 
 //stored tasks for 2pm-3pm
-var twoTask = localStorage.getItem("2")
-$("#2 .description").val(twoTask)
+var twoTask = localStorage.getItem("14")
+$("#14 .description").val(twoTask)
 
 // stored tasks for 3pm-4pm
-var threeTask = localStorage.getItem("3")
-$("#13 .description").val(threeTask)
+var threeTask = localStorage.getItem("15")
+$("#15 .description").val(threeTask)
 
 // stored tasks for 4pm-5pm
-var fourTask = localStorage.getItem("4")
-$("#4 .description").val(fourTask)
+var fourTask = localStorage.getItem("16")
+$("#16 .description").val(fourTask)
 
 //stored tasks for 5pm-6pm
-var fiveTask = localStorage.getItem("5")
-$("#5 .description").val(fiveTask);
+var fiveTask = localStorage.getItem("17")
+$("#17 .description").val(fiveTask);
 
 
 })

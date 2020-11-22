@@ -16,3 +16,5 @@ You'll need to use a library like [Moment.js](https://momentjs.com/) to work wit
 * The next part added was the save button for the task that was added to be saved to local storage 
 
 * The final part to complete was to add in a function to get each hours task from local storage so it could be continued to be displayed in the text area 
+
+* You can view the code working here https://walsc024.github.io/Week-5-Day-Planner/ aslo see attatched screen shots for code in action. 
